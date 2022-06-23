@@ -1,5 +1,5 @@
 # **Prototypical Contrastive Language Image Pretraining**
-Welcome to the official pytorch implementation of ProtoCLIP in paper *Prototypical Contrastive Language Image Pretraining*
+Welcome to the official pytorch implementation of ProtoCLIP in paper *[Prototypical Contrastive Language Image Pretraining](https://arxiv.org/abs/2206.10996)*
 
 by
 [Delong Chen](https://github.com/ChenDelong1999), 
@@ -17,9 +17,13 @@ Erjing, Zhou
 > 
 > Combining the above novel designs, we train our ProtoCLIP on Conceptual Captions and achieved an +5.81% ImageNet linear probing improvement and an +2.01% ImageNet zero-shot classification improvement. 
 
-![CLIP](docs/protoclip_model_structure.png)
+![Fig1](docs/Fig1.png)
+
+![protoclip_model_structure](docs/protoclip_model_structure.png)
 
 🔔 **Updates**
+
+- **2022-06-23**: Preprint of ProtoCLIP paper is avaliable on ArXiv. See [this url](https://arxiv.org/abs/2206.10996). 
 - **2022-06-22**: Initial release of ProtoCLIP training code. 
 
 🚀 **What can you get from this repo**
