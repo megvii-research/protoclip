@@ -185,7 +185,7 @@ python3 src/utils/gather_cc.py path/to/Train_GCC-training.tsv
 
 # Training
 ## Build an External Teacher (optional)
-Pretrained RoBERTa language model as the external teacher for ProtoCLIP. We load the pretrained $\text{RoBERTa}_\text{large}$ weights provided by [FAIRSEQ](https://github.com/facebookresearch/fairseq) via [PyTorch Hub](https://pytorch.org/hub/pytorch_fairseq_roberta/). Run the following script to extract text features from a given `.csv` file, and reduce the feature dimension from 1024 to 64 by PCA to save memory cost:
+Pretrained RoBERTa language model as the external teacher for ProtoCLIP. We load the pretrained RoBERTa-large weights provided by [FAIRSEQ](https://github.com/facebookresearch/fairseq) via [PyTorch Hub](https://pytorch.org/hub/pytorch_fairseq_roberta/). Run the following script to extract text features from a given `.csv` file, and reduce the feature dimension from 1024 to 64 by PCA to save memory cost:
 
 
 ```bash
@@ -330,3 +330,28 @@ We present an useful tool for monitoring the downstream performance. By running 
 Please input your experiment dir: <Your Experiment Log dir>
 Specify a checkpoint epoch? (press "enter" to scan and evaluate all checkpoints) 
 ```
+
+# 🎈 Aknowledgements
+
+If you find this project useful for your research, please consider citing our paper:
+
+```bibtex
+@article{chen2022prototypical,
+    author    = {Delong Chen and
+                Zhao Wu and
+                Fan Liu and
+                Zaiquan Yang and
+                Yixiang Huang and
+                Yiping Bao and
+                Erjin Zhou},
+    title     = {Prototypical Contrastive Language Image Pretraining},
+    journal   = {CoRR},
+    volume    = {abs/2206.10996},
+    year      = {2022},
+    url       = {https://arxiv.org/abs/2206.10996},
+    eprinttype= {arXiv},
+    eprint    = {2206.10996}
+}
+```
+
+If you have any problems about ProtoCLIP algorithm or this implementation, create an issue or email chendelong@hhu.edu.cn.
