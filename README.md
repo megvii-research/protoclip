@@ -1,13 +1,13 @@
 # **Prototypical Contrastive Language Image Pretraining**
-Welcome to the official pytorch implementation of ProtoCLIP in paper *[Prototypical Contrastive Language Image Pretraining](https://arxiv.org/abs/2206.10996)*
+Welcome to the official PyTorch implementation of ProtoCLIP in our paper *[ProtoCLIP: Prototypical Contrastive Language Image Pretraining](https://arxiv.org/abs/2206.10996)*, in IEEE Transactions on Neural Networks and Learning Systems (TNNLS).
 
 by
-[Delong Chen](https://github.com/ChenDelong1999), 
+[Delong Chen](https://chendelong.world/), 
 Zhao Wu, 
-Fan Liu, 
+[Fan Liu](https://multimodality.group/), 
 Zaiquan Yang, 
-Yixiang Huang, 
-Yiping Bao, and
+Shaoqiu Zheng,
+[Ying Tan](https://www.cil.pku.edu.cn/), and
 Erjing, Zhou
 
 > **Abstract**:
@@ -23,7 +23,7 @@ Erjing, Zhou
 
 🔔 **Updates**
 
-- **2022-06-23**: Preprint of ProtoCLIP paper is avaliable on ArXiv. See [this url](https://arxiv.org/abs/2206.10996). 
+- **2022-06-23**: Preprint of ProtoCLIP paper is available on ArXiv. See [this url](https://arxiv.org/abs/2206.10996). 
 - **2022-06-22**: Initial release of ProtoCLIP training code. 
 
 🚀 **What can you get from this repo**
@@ -336,21 +336,17 @@ Specify a checkpoint epoch? (press "enter" to scan and evaluate all checkpoints)
 If you find this project useful for your research, please consider citing our paper:
 
 ```bibtex
-@article{chen2022prototypical,
+@article{chen2023prototypical,
     author    = {Delong Chen and
                 Zhao Wu and
                 Fan Liu and
                 Zaiquan Yang and
-                Yixiang Huang and
-                Yiping Bao and
+                Shaoqiu Zheng and
+                Ying Tan and
                 Erjin Zhou},
-    title     = {Prototypical Contrastive Language Image Pretraining},
-    journal   = {CoRR},
-    volume    = {abs/2206.10996},
-    year      = {2022},
-    url       = {https://arxiv.org/abs/2206.10996},
-    eprinttype= {arXiv},
-    eprint    = {2206.10996}
+    title     = {ProtoCLIP: Prototypical Contrastive Language Image Pretraining},
+    journal   = {IEEE Transactions on Neural Networks and Learning Systems (TNNLS)},
+    year      = {2023},
 }
 ```
 
